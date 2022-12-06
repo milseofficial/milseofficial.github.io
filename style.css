@@ -12,3 +12,20 @@
   color: #3e4377;
   cursor: pointer;
 }
+.screen1-text-exp1{
+  animation: clchng 4s infinite ease-in-out;
+}
+@keyframes clchng {
+  0%{color: #3e4377;}
+  25%{color: #309176;}
+  50%{color: #913030;}
+  75%{color: #879130;}
+}
+@keyframes motion-a{
+  from{top: 0; left: 0;}
+  to{top: 700px; left: 700px;}
+}
+@keyframes motion-b{
+  from{top: 0; right: 0;}
+  to{top: 700px; right: 700px;}
+}
