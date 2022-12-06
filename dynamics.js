@@ -10,4 +10,33 @@ function experienceHandler(action){
 function experience1(){
 	get('e-target1').classList.add('screen1-text-exp1');
 	get('e-target2').classList.add('screen1-text-exp1');
+	setTimeout(deopatize, 3000);
+	function deopatize(){
+		get('e-target1').style.opacity = "0";
+		get('e-target1').style.transition = "6s";
+		setTimeout(hzero, 6000);
+		function hzero(){
+			get('e-target1').style.display = "none";
+			setTimeout(lineone, 5000);
+			function lineone(){
+				get('e-target2').innerHTML = "confidence made you get that girl";
+				setTimeout(linetwo, 5000);
+				function linetwo(){
+					get('e-target2').innerHTML = "get that job";
+					setTimeout(linethree, 3000);
+					function linethree(){
+						get('e-target2').innerHTML = "that promotion";
+						setTimeout(linefour, 3000);
+						function linefour(){
+							get('e-target2').innerHTML = "these are not just clothes";
+							setTimeout(finalline, 5000);
+							function finalline(){
+								get('e-target2').innerHTML = "welcome to milse";
+							}
+						}
+					}
+				}
+			}
+		}
+	}
 }
