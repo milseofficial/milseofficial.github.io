@@ -32,6 +32,23 @@ function experience1(){
 							setTimeout(finalline, 5000);
 							function finalline(){
 								get('e-target2').innerHTML = "welcome to milse";
+								setTimeout(secondPhase, 5000);
+								function secondPhase(){
+									get('milse-container').style.backgroundImage = "none";
+									setTimeout(sp1, 3000);
+									function sp1(){
+										get('e-target2').style.opacity = "0";
+										get('e-target2').style.transition = "6s";
+										setTimeout(sp2, 3000);
+										function sp2(){
+											get('milse-container').style.backgroundColor = "F4EBEC";
+											setTimeout(sp3, 3000);
+											function sp3(){
+												get('milse-container').innerHTML = '<div class="container-fluid" style="padding: 0px;"><div class="milse-nav padded-10"><div class="row"><div class="col-xs-6"><img src="logo.png"></div><div class="col-xs-3">x</div><div class="col-xs-3">x</div></div></div><div class="adscroll"></div></div>';
+											}
+										}
+									}
+								}
 							}
 						}
 					}
