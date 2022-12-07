@@ -9,6 +9,7 @@ body{
   -ms-overflow-style: none;
   overflow: -moz-scrollbars-none;
   font-family: 'seobli-neon';
+  background-image: url('media/200w.gif');
 }
 .logo-container{
   border-top: solid 1px #fff;
@@ -58,7 +59,7 @@ body{
   border-bottom: solid 1px #fff;
 }
 .blank-p{
-  background-image: url('https://milseofficial.github.io/media/200w.gif');
+  background-image: url('media/200w.gif');
 }
 .blank2-p{
   background-image: url('CS.gif');
