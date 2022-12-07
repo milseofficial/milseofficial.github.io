@@ -1,19 +1,96 @@
+body{
+  cursor: none;
+}
 .milse-container::-webkit-scrollbar { width: 0 !important }
 .milse-container{
-  background-image: url('media/200w.gif');
   height: 100vh;
   width: 100vw;
   overflow-y: scroll;
   -ms-overflow-style: none;
   overflow: -moz-scrollbars-none;
+  font-family: 'seobli-neon';
 }
-.screen1-text{
+.logo-container{
+  border-top: solid 1px #fff;
+  border-bottom: solid 1px #fff;
+  background-color: #CDCFCB;
+}
+.col-xs-1-spacer{
+  background-color: #CDCFCB;
+  color: #333;
+  transition: .5s;
+}
+.circle{
+  border: solid 1px #fff;
+  width:20px;
+  height:20px;
+  border-radius:50%;
+  position:absolute;
+  z-index: 1000;
+  transform:translate(-50%,-50%);
+  transition: 0.1s;
+  background-color: #fff;
+  mix-blend-mode: difference;
+}
+.main-logo{
+  height: 100px;
+}
+.brr{
+  border-right: solid 1px #fff;
+}
+.c1c{
+  background-color: #CDCFCB;
+}
+.c2c{
+  background-color: #c1c1c1;
+}
+.c3c{
+  background-color: #b6b0ac;
+}
+.c4c{
+  background-color: #454444;
+  color: #fff;
+}
+.btt{
+  border-top: solid 1px #fff;
+}
+.bbb{
+  border-bottom: solid 1px #fff;
+}
+.blank-p{
+  background-image: url('https://milseofficial.github.io/media/200w.gif');
+}
+.blank2-p{
+  background-image: url('CS.gif');
+}
+.fbb{
+  border: solid 1px #fff;
+}
+.promage{
+  transition: .5s;
+  box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+}
+.promage:hover{
+  box-shadow: 0 5px 12px rgb(0 0 0 / 0.5);
+  transition: .5s;
+}
+.navtems:hover{
+  background-color: #000;
+  color: #fff;
+  transition: .5s;
+}
+.ctw{
   font-family: seobli-tw;
-  color: #3e4377;
-  cursor: pointer;
+  color: #00ff00;
 }
 .screen1-text-exp1{
   animation: clchng 4s infinite ease-in-out;
+}
+.paint-exp1{
+  animation: motion-c 5s infinite;
+}
+.h4i{
+  opacity: 0;
 }
 .milse-nav{
   background-color: #f4ebea96;
@@ -40,4 +117,20 @@
 @keyframes motion-b{
   from{top: 0; right: 0;}
   to{top: 700px; right: 700px;}
+}
+@keyframes motion-c{
+  0%{transform: translateZ(0);}
+  25%{transform: translateZ(50px);}
+  50%{transform: translateZ(100px);}
+  75%{transform: translateZ(150px);}
+}
+@media screen and (max-width:  1000px) {
+    .circle{
+        display: none;
+    }
+}
+@media screen and (min-width:  1001px) {
+    .circle{
+        display: block;
+    }
 }
