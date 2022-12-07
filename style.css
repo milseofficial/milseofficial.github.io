@@ -84,6 +84,10 @@ body{
   font-family: seobli-tw;
   color: #00ff00;
 }
+.screen1-text{
+  font-familt: seobli-tw;
+  color: #3e4377;
+}
 .screen1-text-exp1{
   animation: clchng 4s infinite ease-in-out;
 }
