@@ -109,6 +109,14 @@ body{
   background-image: url('https://milseofficial.github.io/media/sample.jpg');
   background-size: 100%;
 }
+.mena{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #CDCFCB;
+    box-shadow: 20px 20px 50px grey;
+  }
 @keyframes clchng {
   0%{color: #3e4377;}
   25%{color: #309176;}
