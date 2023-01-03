@@ -75,19 +75,19 @@ function experience1(){
 			get('e-target1').style.display = "none";
 			setTimeout(lineone, 5000);
 			function lineone(){
-				get('e-target2').innerHTML = "confidence made you get that girl";
+				get('e-target2').innerHTML = "i know a young fellow named Vin";
 				setTimeout(linetwo, 5000);
 				function linetwo(){
-					get('e-target2').innerHTML = "get that job";
+					get('e-target2').innerHTML = "who is remarkably thin";
 					setTimeout(linethree, 3000);
 					function linethree(){
-						get('e-target2').innerHTML = "that promotion";
+						get('e-target2').innerHTML = "everytime he's at the stores";
 						setTimeout(linefour, 3000);
 						function linefour(){
-							get('e-target2').innerHTML = "these are not just clothes";
+							get('e-target2').innerHTML = "to buy some clothes";
 							setTimeout(finalline, 5000);
 							function finalline(){
-								get('e-target2').innerHTML = "welcome to milse";
+								get('e-target2').innerHTML = "thin vin always picks milse";
 								setTimeout(secondPhase, 5000);
 								function secondPhase(){
 									get('milse-container').style.backgroundImage = "none";
